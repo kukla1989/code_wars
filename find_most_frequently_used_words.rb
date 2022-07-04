@@ -1,7 +1,7 @@
 #Most frequently used words in a text(first three)
 #https://www.codewars.com/kata/51e056fe544cf36c410000fb/train/ruby
 
-def text_to_words_of_words(text)
+def text_to_array_of_words(text)
   word = ''
   words = []
   text.size.times do |i|
@@ -17,7 +17,7 @@ def text_to_words_of_words(text)
 end
 
 def top_3_words(text)
-  words = text_to_words_of_words text
+  words = text_to_array_of_words text
   words_hash = Hash.new(0)
   words.each { |word| words_hash[word] += 1 }
 
