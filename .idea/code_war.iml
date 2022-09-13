@@ -11,5 +11,7 @@
     </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-3.1.2" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.3.14, RVM: ruby-3.1.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.16.2, RVM: ruby-3.1.2) [gem]" level="application" />
   </component>
 </module>

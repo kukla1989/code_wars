@@ -30,4 +30,5 @@ def tree_by_levels(node)
   stack.map! &:value
 end
 
+
 p tree_by_levels base_node
